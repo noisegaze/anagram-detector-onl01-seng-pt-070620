@@ -19,6 +19,7 @@ class Anagram :word
        collection
     end
   end
+end
   
   
   
