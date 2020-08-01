@@ -7,7 +7,7 @@ class Anagram
   def initialize(word)
   end
   
-  def 
+  def match(array)
   end  
   
   
