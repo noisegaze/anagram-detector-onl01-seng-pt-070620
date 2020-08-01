@@ -1,7 +1,7 @@
 # Your code goes here!
 require 'pry'
 
-class Anagram :match
+class Anagram :word 
   attr_accessor 
   
   def initialize(word)
