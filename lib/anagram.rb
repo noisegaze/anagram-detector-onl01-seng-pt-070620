@@ -4,7 +4,8 @@ require 'pry'
 class Anagram 
   attr_accessor 
   
-  
+  def 
+  end
   
   
   
