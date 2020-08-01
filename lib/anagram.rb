@@ -9,7 +9,7 @@ class Anagram :word
     @word.match
   end
   
-  def match(array)
+  def match
     @word.split.collect do |x|
       x.split("")
     end 
