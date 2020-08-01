@@ -9,11 +9,13 @@ class Anagram :word
   end
   
   def match(array)
+    collection = []
     @word.collect do |x|
       x.split("")
     end 
     array.each do |y|
-     if @word == y 
+     if @word.all? == y 
+       
        
       
       
