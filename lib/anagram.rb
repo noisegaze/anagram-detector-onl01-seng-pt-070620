@@ -15,6 +15,8 @@ class Anagram :word
     end 
     array.each do |y|
      if @word.all? == y 
+       collection << y 
+       elsif
        
        
       
