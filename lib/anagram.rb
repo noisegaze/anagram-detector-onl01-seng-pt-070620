@@ -18,6 +18,7 @@ class Anagram
       collection
       end
     end
+    collection
   end
   
 end   
