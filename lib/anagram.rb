@@ -9,9 +9,11 @@ class Anagram :word
   end
   
   def match(array)
-    input = @word
-    input.gets 
-    array.each 
+    @word.split.collect do |x|
+      x.split("")
+    end 
+    array.each do |y|
+      
   end  
   
   
