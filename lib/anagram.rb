@@ -17,11 +17,8 @@ class Anagram :word
        collection << y 
        elsif @word.all? == y 
        collection
-       
-       
-      
-      
-  end  
+    end
+  end
   
   
   
