@@ -12,8 +12,9 @@ class Anagram :word
     @word.collect do |x|
       x.split("")
     end 
-    array.all do |y|
+    array.each do |y|
      if @word == y 
+       
       
       
   end  
