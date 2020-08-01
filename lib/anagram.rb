@@ -11,6 +11,7 @@ class Anagram :word
   def match(array)
     input = @word
     input.gets 
+    array.each 
   end  
   
   
