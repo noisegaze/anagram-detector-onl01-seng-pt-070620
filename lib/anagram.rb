@@ -9,7 +9,7 @@ class Anagram :word
   end
   
   def match(array)
-    
+    if array
   end  
   
   
