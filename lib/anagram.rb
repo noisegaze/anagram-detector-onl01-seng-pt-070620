@@ -10,6 +10,7 @@ class Anagram :word
   end
   
   def match(array)
+    binding.pry
     @word.split.collect do |x|
       x.split("")
     end 
