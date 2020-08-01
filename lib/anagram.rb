@@ -5,6 +5,7 @@ class Anagram :match
   attr_accessor 
   
   def initialize(word)
+    @word = word 
     @match = match
   end
   
