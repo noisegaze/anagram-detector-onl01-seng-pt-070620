@@ -11,7 +11,9 @@ class Anagram
   
   def match(array)
     #binding.pry
-   @word.split("").sort 
+   array.each do |x|
+    if x.split("").sort == @word.split("").sort 
+     
     end
   end
 end
