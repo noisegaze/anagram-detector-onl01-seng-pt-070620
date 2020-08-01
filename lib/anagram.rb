@@ -10,15 +10,8 @@ class Anagram
   end
   
   def match(array)
-    binding.pry
-    @word.split.collect do |x|
-      x.split("")
-    end 
-    array.each do |y|
-     if @word.all? == y 
-       collection << y 
-       elsif @word.all? != y 
-       collection
+    #binding.pry
+   @word.split("").sort 
     end
   end
 end
